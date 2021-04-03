@@ -28,7 +28,7 @@ import java.util.List;
 public class PaymentServices {
 
     private static final String CLIENT_ID = ;
-    private static final String CLIENT_SECRET =;
+    private static final String CLIENT_SECRET = ;
     private static final String MODE = "sandbox";
 
     public String authorizePayment(OrderDetail orderDetail) throws PayPalRESTException {

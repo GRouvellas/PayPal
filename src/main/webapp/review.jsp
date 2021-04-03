@@ -29,7 +29,7 @@
             <td>${transaction.description}</td>
         </tr>
         <tr>
-            <td>Subtotal:</td>
+            <td>Cart total:</td>
             <td>${transaction.amount.details.subtotal} EUR</td>
         </tr>
         <tr>
