@@ -11,26 +11,16 @@ package grouv;
  */
 public class OrderDetail {
     
-    private String productName;
     private float subtotal;
     private float shipping;
     private float tax;
     private float total;
 
-    public OrderDetail(String productName, String subTotal, String shipping, String tax, String total) {
-        this.productName = productName;
+    public OrderDetail(String subTotal, String shipping, String tax, String total) {
         this.subtotal = Float.parseFloat(subTotal);
         this.shipping = Float.parseFloat(shipping);
         this.tax = Float.parseFloat(tax);
         this.total = Float.parseFloat(total);
-    }
-
-    public String getProductName() {
-        return productName;
-    }
-
-    public void setProductName(String productName) {
-        this.productName = productName;
     }
 
     public String getSubtotal() {

@@ -27,10 +27,6 @@
             <td>${payer.firstName} ${payer.lastName}</td>      
         </tr>
         <tr>
-            <td><b>Description:</b></td>
-            <td>${transaction.description}</td>
-        </tr>
-        <tr>
             <td><b>Cart total:</b></td>
             <td>${transaction.amount.details.subtotal} EUR</td>
         </tr>

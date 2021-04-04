@@ -109,14 +109,12 @@ public class PaymentServices {
 
         Transaction transaction = new Transaction();
         transaction.setAmount(amount);
-        transaction.setDescription(orderDetail.getProductName());
 
         ItemList itemList = new ItemList();
         List<Item> items = new ArrayList<Item>();
 
         Item item = new Item();
         item.setCurrency("EUR")
-                .setName(orderDetail.getProductName())
                 .setPrice(orderDetail.getSubtotal())
                 .setTax(orderDetail.getTax())
                 .setQuantity("1");
